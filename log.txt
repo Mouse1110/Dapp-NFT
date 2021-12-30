@@ -1,0 +1,16 @@
+                // var str = web3.eth.abi.decodeLog([{
+                //     type: 'address',
+                //     name: 'myString'
+                // },{
+                //     type: 'uint',
+                //     name: 'myNumber',
+        
+                // },{
+                //     type: 'uint',
+                //     name: 'mySmallNumber',
+                // },{
+                //     type: 'uint',
+                //     name: 'mySmallNumber',
+                // }],
+                // result.logs[0].data);
+                // console.log(str[2].toString());

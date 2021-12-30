@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="./"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/web3.js"></script>
+    <script src="./process.js"></script>
+    <title>MAS</title>
+</head>
+<body>
+    <h2>HỆ THỐNG THÔNG TIN VĂN BẰNG</h2>
+    <br/>
+    <button id="btnConnectMM">Kết nối ví</button>
+    <br/>
+    <h5 id="sWallet"></h5>
+    <br/>
+    <input id="txtName" type="text" placeholder="Họ tên của sinh viên"/>
+    <input id="txtMSSV" type="number" placeholder="Mã số sinh viên"/>
+    <input id="txtPoint" type="number" placeholder="Điểm tổng"/>
+    <br/>
+    <button id="btnSend">Xác nhận</button>
+    <br/>
+    <h4>Tìm kiếm sinh viên theo mã</h4>
+    <br/>
+    <input id="txtFind" type="number" placeholder="Nhập mã số sinh viên cần tìm kiếm"/>
+    <br/>
+    <button id="btnFind">Tìm kiếm</button>
+    <div style="margin-top: 30px;" id="dObject">
+        <h3>Thông tin sinh viên</h3>
+        <span style="color: grey;">Họ tên:</span>
+        <span style="color: blue;" id="sName"></span>
+        <br/>
+        <span style="color: grey;">Điểm số:</span>
+        <span style="color: blue;" id="sPoint"></span>
+        <br/>
+        <span style="color: grey;">Mã số sinh viên:</span>
+        <span style="color: blue;" id="sMSSV"></span>
+        <br/>
+        <button id="btnBlock">Xem Minh Chứng</button>
+    </div>
+    <div style="margin-top: 30px;" id="dBlock">
+        <h3>Thông tin đưa lên mạng lưới blockchain</h3>
+        <div>
+        <h5>Thông tin khối blockchain</h5>
+        <span style="color: grey;">blockHash:</span>
+        <span style="color: blue;" id="sBH"></span>
+        <br/>
+        <span style="color: grey;">blockNumber:</span>
+        <span style="color: blue;" id="sBN"></span>
+        <br/>
+        <span style="color: grey;">gasUsed:</span>
+        <span style="color: blue;" id="sGU"></span>
+        <br/>
+        <span style="color: grey;">transactionHash:</span>
+        <span style="color: blue;" id="sTH"></span>
+        <br/>
+        <span style="color: grey;">transactionIndex:</span>
+        <span style="color: blue;" id="sTI"></span>
+        <br/>
+        <span style="color: grey;">from:</span>
+        <span style="color: blue;" id="sF"></span>
+        <br/>
+        <span style="color: grey;">to:</span>
+        <span style="color: blue;" id="sT"></span>
+        <br/>
+        </div>
+    </div>
+</body>
+</html>

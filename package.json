@@ -1,0 +1,29 @@
+{
+  "name": "dapp-nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mouse1110/Dapp-NFT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mouse1110/Dapp-NFT/issues"
+  },
+  "homepage": "https://github.com/Mouse1110/Dapp-NFT#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15",
+    "web3": "^1.6.1",
+    "web3.js-browser": "^0.2.0"
+  }
+}
